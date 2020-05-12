@@ -40,6 +40,7 @@ public class HumanResources {
         employee4.setInfo("Karina",8596,74575632,"Senior SDET",1250000,'F');
         employee5.setInfo("Mesud",7536,456987123,"Senior Developer",160000,'M');
 
+
     }
 
 }
