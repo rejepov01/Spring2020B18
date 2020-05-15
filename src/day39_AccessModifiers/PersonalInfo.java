@@ -17,4 +17,5 @@ public class PersonalInfo {
 
     private static long SSN = 123644598;
     private static long id = 5632145;
+
 }
