@@ -6,4 +6,16 @@ public class Person {
 
     private long SSN;
     private long ID;
+
+    public Person(String name){
+        this.name = name;
+    }
+
+    public long getSSN(){
+        return SSN;
+    }
+
+    public void setSSN( long SSN){
+        this.SSN = SSN;
+    }
 }
