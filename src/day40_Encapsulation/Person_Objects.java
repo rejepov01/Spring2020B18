@@ -8,11 +8,14 @@ public class Person_Objects {
         System.out.println( Sha.name );
       //  System.out.println( Sha.SSN );
 
+        Sha.setSSN(12354);
         System.out.println( "Sha's SSN: "+Sha.getSSN() );
 
-        Sha.setSSN(12354);
 
-        System.out.println( Sha.getSSN() );
+        // System.out.println( Sha.ID);\
+
+        Sha.setID(564);
+        System.out.println( "Sha's ID: "+Sha.getID());
 
 
 
