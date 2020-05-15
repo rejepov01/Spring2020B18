@@ -3,7 +3,7 @@ package day38_Constructors;
 public class ConstructorCall3 {
 
     public ConstructorCall3 (){
-        this(9);  // int argument
+        // this(9);  // int argument
         System.out.println("default");
      //   this(9);  // int argument
     }
@@ -16,6 +16,7 @@ public class ConstructorCall3 {
 
     public ConstructorCall3(String str){
       //  this("Hello");
+
     }
 
     public static void main(String[] args) {
