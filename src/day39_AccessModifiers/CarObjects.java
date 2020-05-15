@@ -21,5 +21,6 @@ public class CarObjects {
         Car car4 = new Car("Tesla","Model S",2020,40000);
 
         System.out.println( car4 );
+
     }
 }
