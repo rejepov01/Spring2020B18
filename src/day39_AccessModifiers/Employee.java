@@ -59,4 +59,5 @@ public class Employee {
     public String toString(){
         return "Name: "+name+", id: "+id+", jobTitle: "+jobTitle+", salary: $"+salary+", gender: "+gender +", company name: "+companyName;
     }
+
 }
