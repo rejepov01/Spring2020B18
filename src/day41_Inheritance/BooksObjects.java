@@ -3,7 +3,7 @@ package day41_Inheritance;
 public class BooksObjects {
 
     public static void main(String[] args) {
-
+      // here we will create our Book object from EBook
         Ebook book1 = new Ebook();
         book1.title = "Hamlet";
         book1.author = "Shakespeare";
