@@ -8,6 +8,10 @@ class Test{
 }
 
 public class MethodOverriding extends Test {
+
+    public MethodOverriding(){
+
+    }
     @Override
     public void method(){
         System.out.println("Leyla");
