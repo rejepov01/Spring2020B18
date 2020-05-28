@@ -5,6 +5,9 @@ public class Practice2 {
     /*
   1. Write a method called "wait" that causes the current executing thread to sleep for the specific number of seconds
      parameters: double seconds
+
+     Hint: Thread.sleep()
+
      */
 
     public static void main(String[] args) {
