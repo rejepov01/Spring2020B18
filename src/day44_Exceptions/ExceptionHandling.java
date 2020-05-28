@@ -9,7 +9,7 @@ public class ExceptionHandling {
         try {
             System.out.println( str.charAt(100));
         }catch (RuntimeException e){
-           String description = e.getMessage();
+           String description = e.getMessage();  // description of exception or to see in details
             System.out.println(description);
 
         }
