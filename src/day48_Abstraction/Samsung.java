@@ -1,0 +1,35 @@
+package day48_Abstraction;
+/*
+2. create the following subclasses of phone:
+
+						2. Samsung
+			create constructors in each sub class that can initialize the instance variables
+ */
+
+public class Samsung extends Phone{
+
+    static {
+        brand = "Samsung";
+    }
+
+    public Samsung(String model, double price, String size){
+        this.model = model;
+        this.price = price;
+        this.size = size;
+    }
+
+    @Override
+    public void calling(long phoneNumber) {
+        System.out.println("Samsung is calling "+phoneNumber);
+    }
+
+    @Override
+    public void texting(long phoneNumber) {
+        System.out.println("Samsung is texting "+phoneNumber);
+    }
+
+    public void freezing( ){
+        System.out.println("Samsung is freezing when using");
+    }
+
+}
